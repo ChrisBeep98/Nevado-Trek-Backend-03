@@ -1,4 +1,4 @@
-const { db } = require('../../../lib/firebase-config');
+const { db } = require('../../lib/firebase-config');
 
 module.exports = async function handler(req, res) {
   // Only allow POST requests for creating tours
